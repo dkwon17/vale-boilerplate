@@ -1,0 +1,11 @@
+schemaVersion: 2.2.2
+metadata:
+  name: vale-boilerplate
+components:
+  - name: tools
+    container:
+      args:
+        - tail
+        - "-f"
+        - "/dev/null"
+      image: "quay.io/eclipse/che-docs:next"
