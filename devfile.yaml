@@ -9,3 +9,6 @@ components:
         - "-f"
         - "/dev/null"
       image: "quay.io/eclipse/che-docs:next"
+      env:
+        - name: VSCODE_DEFAULT_WORKSPACE
+          value: "/"
